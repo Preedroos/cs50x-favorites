@@ -133,6 +133,6 @@ Pedro Paulo Fagundes Cabral
 
 Email: preedroos@gmail.com
 
-Project Link: [CS50x Favorites](https://github.com/Preedros/cs50x-favorites)
+Project Link: [CS50x Favorites](https://github.com/Preedroos/cs50x-favorites)
 
 <p align="right">[ <a href="#readme-top">back to top</a> ]</p>
