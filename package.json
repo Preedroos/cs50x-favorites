@@ -1,7 +1,7 @@
 {
-  "name": "alura-play",
+  "name": "cs50x-favorites",
   "version": "1.0.0",
-  "description": "Javascript: criando requisições",
+  "description": "CS50x favorite lectures",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
