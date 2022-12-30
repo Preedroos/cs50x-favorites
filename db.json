@@ -1,0 +1,46 @@
+{
+  "videos": [
+    {
+      "id": 1,
+      "title": "CS50 2021 in HDR - Lecture 8 - HTML, CSS, JavaScript",
+      "views": "299k views",
+      "url": "https://www.youtube.com/embed/2VauFS071pg",
+      "image": "./images/lamp.png"
+    },
+    {
+      "id": 2,
+      "title": "CS50 2021 in HDR - Lecture 3 - Algorithms",
+      "views": "299k views",
+      "url": "https://www.youtube.com/embed/yb0PY3LX2x8",
+      "image": "./images/lamp.png"
+    },
+    {
+      "id": 3,
+      "title": "CS50 2021 in HDR - Lecture 4 - Memory",
+      "views": "299k views",
+      "url": "https://www.youtube.com/embed/nvO1sq_b_zI",
+      "image": "./images/lamp.png"
+    },
+    {
+      "id": 4,
+      "title": "CS50 2021 in HDR - Lecture 5 - Data Structures",
+      "views": "299k views",
+      "url": "https://www.youtube.com/embed/-gpsiMiEOHU",
+      "image": "./images/lamp.png"
+    },
+    {
+      "id": 5,
+      "title": "CS50 2021 in HDR - Lecture 6 - Python",
+      "views": "299k views",
+      "url": "https://www.youtube.com/embed/ky-24RvI57s",
+      "image": "./images/lamp.png"
+    },
+    {
+      "id": 6,
+      "title": "CS50 2021 in HDR - Lecture 7 - SQL",
+      "views": "299k views",
+      "url": "https://www.youtube.com/embed/D-1kNFO568c",
+      "image": "./images/lamp.png"
+    }
+  ]
+}

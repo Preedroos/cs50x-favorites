@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;500;700&display=swap');
+@import url('container.css');
+
+:root {
+  --color-primary: #a51c30;
+  --color-primary-bolder: #811626;
+  --color-gray-light: #ececec;
+  --color-gray-dark: #444444;
+
+  --font-family: 'PT Sans', sans-serif;
+}
+
+*,
+*::before,
+*::after,
+*::placeholder {
+  font-family: var(--font-family);
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--color-gray-light);
+}

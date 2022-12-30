@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CS50x Favorites - Add</title>
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/header.css" />
+    <link rel="stylesheet" href="../css/form.css" />
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+
+    <!-- GOOGLE FONTS  -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,700,0,0"
+    />
+  </head>
+
+  <body>
+    <header class="header">
+      <nav class="header__container container">
+        <a class="header__logo" href="/">This is CS50x</a>
+
+        <a
+          class="header__add material-symbols-outlined"
+          href="./pages/enviar-video.html"
+        >
+          library_add
+        </a>
+      </nav>
+    </header>
+
+    <main class="form">
+      <form class="form__container container">
+        <h2 class="form__title">Save a video!</h2>
+
+        <div class="form__entry">
+          <label class="entry__label" for="title">Titulo do vídeo</label>
+          <input
+            data-title
+            name="title"
+            class="entry__input"
+            required
+            placeholder="Insert the video title..."
+            id="title"
+          />
+        </div>
+
+        <div class="form__entry">
+          <label class="entry__label" for="url">Link embed</label>
+          <input
+            data-url
+            name="url"
+            class="entry__input"
+            required
+            placeholder="For example: https://www.youtube.com/embed/v_luodP_mfE"
+            id="url"
+          />
+        </div>
+
+        <input data-submit class="form__submit" type="submit" />
+      </form>
+    </main>
+    <script src="../js/submitVideo.js" type="module"></script>
+  </body>
+</html>
