@@ -72,15 +72,29 @@ To get a local copy and running follow these simple example steps.
 
 ### **Prerequisites**
 
-Using git clone you **must have git** on your computer. Otherwise, you can also download these files on repository.
+Using git clone you must have **git** on your computer. Otherwise, you can also download these files on repository. I recommend open the project using **vscode** and **live server extension**.
 
 ### **Installation**
 
 1. Clone the repo
-   ```
-   git clone https://github.com/Preedroos/cs50x-favorites.git
-   ```
-2. Open the `index.html` on browser.
+
+```
+git clone https://github.com/Preedroos/cs50x-favorites.git
+```
+
+2. Enter the folder
+
+```
+cd cs50x-favorites
+```
+
+3. Turn on the json-server
+
+```
+json-server db.json --watch
+```
+
+4. Open the project on vscode and use live server extension.
 
 <p align="right">[ <a href="#readme-top">back to top</a> ]</p>
 
